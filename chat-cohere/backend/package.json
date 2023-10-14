@@ -1,0 +1,27 @@
+{
+  "name": "chat-cohere-backend",
+  "version": "1.0.0",
+  "description": "Custom chat IA - Cohere",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "ia",
+    "backend",
+    "utn"
+  ],
+  "author": "gabrielalberini",
+  "license": "ISC",
+  "dependencies": {
+    "cohere-ai": "6.2.2",
+    "cors": "2.8.5",
+    "dotenv": "16.3.1",
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.0.1"
+  }
+}

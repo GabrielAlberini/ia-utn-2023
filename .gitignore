@@ -1,0 +1,4 @@
+chat-cohere/backend/node_modules
+chat-cohere/backend/.env
+
+chat-cohere/frontend/.env
