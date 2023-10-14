@@ -1,0 +1,41 @@
+/* .testimonial-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  animation: scroll 20s linear infinite;
+  width: 100%; /* Ajusta el valor según la cantidad de testimonios */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Ajusta el valor según la cantidad de testimonios */
+  }
+} */
+
+.testimonial {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  text-align: center;
+  padding: 20px;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.comment {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.name {
+  font-size: 16px;
+  color: #888;
+}

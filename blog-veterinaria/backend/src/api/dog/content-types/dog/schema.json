@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dogs",
+  "info": {
+    "singularName": "dog",
+    "pluralName": "dogs",
+    "displayName": "Dog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "race": {
+      "type": "string"
+    },
+    "lifeExpectancy": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "race"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "special_cares": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::special-care.special-care",
+      "inversedBy": "dogs"
+    },
+    "foods": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::food.food",
+      "inversedBy": "dogs"
+    }
+  }
+}
