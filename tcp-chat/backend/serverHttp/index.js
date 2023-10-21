@@ -25,5 +25,5 @@ app.get("/api/messages", (__, res) => {
 });
 
 app.listen(httpPort, () => {
-  console.log(`HTTP Server up on http://localhost:${httpPort}`);
+  console.log(`HTTP Server up on http://localhost:${httpPort}/api`);
 });
