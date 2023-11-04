@@ -9,5 +9,5 @@ tcp-chat/backend/node_modules
 tcp-chat/backend/.env
 tcp-chat/frontend/node_modules
 
-pizza-app-utn/convertor-csv
 pizza-app-utn/pizza-app-frontend/node_modules
+pizza-app-utn/pizza-app-docs/node_modules

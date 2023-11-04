@@ -1,0 +1,11 @@
+name,image,ingredients,price,history
+Margarita,https://demo-menu-restaurant-ada-itw.vercel.app/assets/margarita.png,"Tomate, mozzarella, albahaca",8.99,"Clásica y sencilla, originaria de Nápoles."
+Hawaiana,https://demo-menu-restaurant-ada-itw.vercel.app/assets/hawaiana.png,"Jamón, piña, mozzarella",9.99,"Controversial, con sabores dulces y salados."
+Pepperoni,https://demo-menu-restaurant-ada-itw.vercel.app/assets/pepperoni.png,"Pepperoni, queso, salsa de tomate",10.99,Favorita americana con un toque picante.
+Cuatro Quesos,https://demo-menu-restaurant-ada-itw.vercel.app/assets/cuatroquesos.png,"Mozzarella, gorgonzola, parmesano, provolone",11.99,Deliciosa mezcla de quesos para los amantes del queso.
+Vegetariana,https://demo-menu-restaurant-ada-itw.vercel.app/assets/vegetariana.png,"Vegetales variados, queso, salsa de tomate",9.49,"Sana y deliciosa, una opción para los amantes de las verduras."
+Marinera,https://demo-menu-restaurant-ada-itw.vercel.app/assets/marinera.png,"Mariscos variados, salsa de tomate, queso",12.99,Inspirada en sabores del mar para los amantes de los mariscos.
+Napolitana,https://demo-menu-restaurant-ada-itw.vercel.app/assets/napolitana.png,"Anchoas, aceitunas, alcaparras, tomate",10.49,Sabores tradicionales napolitanos en cada bocado.
+Barbacoa,https://demo-menu-restaurant-ada-itw.vercel.app/assets/barbacoa.png,"Carne de res, salsa barbacoa, cebolla, queso",11.49,Inspirada en el sabor ahumado de la barbacoa tradicional.
+Mexicana,https://demo-menu-restaurant-ada-itw.vercel.app/assets/mexicana.png,"Carne molida, jalapeños, maíz, frijoles",10.99,Una explosión de sabores picantes y deliciosos de México.
+Caprese,https://demo-menu-restaurant-ada-itw.vercel.app/assets/caprese.png,"Tomate, mozzarella fresca, albahaca, aceite de oliva",9.99,Simplicidad italiana con ingredientes frescos y sabrosos.
