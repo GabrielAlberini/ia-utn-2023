@@ -6,5 +6,8 @@ blog-veterinaria/backend/node_modules
 blog-veterinaria/frontend/node_modules
 
 tcp-chat/backend/node_modules
+tcp-chat/backend/.env
 tcp-chat/frontend/node_modules
-tcp-chat/.env
+
+pizza-app-utn/convertor-csv
+pizza-app-utn/pizza-app-frontend/node_modules
