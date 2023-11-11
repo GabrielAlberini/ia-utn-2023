@@ -48,7 +48,14 @@ router.get("/recuperate", async (_, res) => {
     const audioFiles = files.filter(
       (file) => path.extname(file).toLowerCase() === `.${FILE_EXTENSION}`
     );
-    res.json({ audioFiles });
+
+    const audioFilesWithPrefix = audioFiles.map((file) => {
+      // Agrega el prefijo al comienzo del nombre del archivo
+      const prefixedFileName = `http://localhost:3002/${file}`;
+      return prefixedFileName;
+    });
+
+    res.json({ audioFilesWithPrefix });
   } catch (error) {
     console.error("Error reading public folder:", error);
     res.status(500).send("Internal Server Error");
