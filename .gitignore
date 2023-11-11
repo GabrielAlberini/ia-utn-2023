@@ -11,3 +11,9 @@ tcp-chat/frontend/node_modules
 
 pizza-app-utn/pizza-app-frontend/node_modules
 pizza-app-utn/pizza-app-docs/node_modules
+
+ai-app/backend/node_modules
+ai-app/backend/public
+ai-app/backend/.env
+
+ai-app/frontend/node_modules
