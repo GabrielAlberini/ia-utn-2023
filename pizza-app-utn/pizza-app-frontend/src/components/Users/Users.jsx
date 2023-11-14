@@ -32,7 +32,7 @@ const Users = () => {
             <Loader />
           ) : (
             users.map((user) => (
-              <Link className="box" key={user.slug} to={`/${user.slug}`}>
+              <Link className="box" key={user.slug} to={`/resto/${user.slug}`}>
                 <div>
                   <p className="title is-4">
                     {capitalizeFirstLetter(user.slug)}
