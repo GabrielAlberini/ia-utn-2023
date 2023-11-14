@@ -34,7 +34,7 @@ const List = () => {
           setLoading(false);
         }
       });
-  }, [slug]);
+  }, []);
 
   return (
     <Layout>
