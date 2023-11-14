@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --watch server/app.mjs",
-    "electron": "electron index"
+    "start-server": "node --watch server/app.mjs",
+    "start-electron": "node --watch server/app.mjs",
+    "electron": "electron index.js"
   },
   "author": "",
   "license": "ISC",
